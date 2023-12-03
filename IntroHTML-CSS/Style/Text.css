@@ -1,0 +1,51 @@
+
+/* Put all the feature apply to hole html page */
+p {
+    font-family: Roboto;
+}
+
+.AI-text {
+    font-size: 30;
+    font-weight: bold;
+    font-style: italic;
+    width: 300px;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+.view {
+
+    font-size: 14px;
+    color: rgb(99, 107, 116);
+    margin-top: 0px;
+
+}
+
+.author {
+
+    color: rgb(99, 107, 116);
+    font-size: 14px;
+    margin: 0;
+    width: 300px;
+}
+
+.status {
+
+    font-size: 14px;
+    line-height: 23px;
+
+}
+
+.Sale {
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    text-align: center;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.spanEX:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

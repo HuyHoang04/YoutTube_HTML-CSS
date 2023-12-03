@@ -1,0 +1,167 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    position:fixed;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid ;
+    border-bottom-color: gray ;
+    z-index: 100 ;
+
+}
+.left-section {
+    width: 150px ;
+    display: flex;
+    align-items: center;
+
+}
+.mid-section{
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 30px;
+    max-width: 500px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+
+    
+}
+.right-section{
+
+    width: 200px;
+    display: flex;
+    align-items: center;
+    width: 180px;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.hamburger-menu{
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 24px;
+
+}
+.youtube-icon{
+    height: 20px;
+    margin-left: 10px;
+}
+.sreach-button{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(241, 241, 241);
+    border-width: 1px ;
+    border-style: solid ;
+    border-color: gray;
+    margin-left: -1px;
+    margin-right: 10px ;
+
+}
+
+.sreach-button, 
+.voice-sreach-button,
+.upload-icon-container
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.voice-sreach-button
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgb(241, 241, 241);
+}
+
+.sreach-logo{
+    height: 25px;
+}
+.Sreach-bar{
+    flex: 1;
+    height: 37px;
+    padding-left: 16px;
+    border-width: 1px;
+    border-style: solid ;
+    border-color: gray;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05px);
+}
+
+.voice-sreach-logo{
+    height: 25px;
+}
+
+.Sreach-bar ::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    width: 0;
+}
+.upload-icon{
+    height: 26px;
+}
+.youtube-apps-icon{
+    height: 26px;
+}
+.notifications-icon{
+    height: 26px;
+}
+.current-picture{
+    height: 30px;
+    border-radius: 15px;
+}
+.notifications-icon-container
+{
+    position: relative;
+}
+.notifications-count
+{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding-top: 2px;
+    padding-bottom: 2px; 
+    padding-left:5px ;
+    padding-right: 5px;
+
+    background-color: red;
+    border-radius: 100%;
+
+}
+.sreach-button .tooltip, 
+.voice-sreach-button .tooltip,
+.upload-icon-container .tooltip
+{
+    font-family: Roboto, Arial;
+    position: absolute;
+    background-color: rgb(122, 122, 122);
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s ;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.sreach-button:hover .tooltip,
+.voice-sreach-button:hover .tooltip,
+.upload-icon-container:hover .tooltip
+{
+    opacity: 1;
+}
